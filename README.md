@@ -57,58 +57,58 @@ Implementation of Spectral Clustering
 
 ### Description of modules used
 
-#### loadClusterData()
+- loadClusterData()
   > Takes the transposed mfccs and converts it into DataFrame.Then does the forward filling.
 
-#### ScaleAndNorm()
+- ScaleAndNorm()
   > To Scale and normalize the data.
 
-#### getPCA()
+- getPCA()
   > Reduce the dimension/features to 2 using principal component analysis.
 
-#### getVectorize()
+- getVectorize()
   > Calculating euclidean distance between 2 columns taking as x and y coordinates and then vectorizing it to convert to adjacency matrix.
 
-#### getLaplacian()
+- getLaplacian()
   > To Find the degree matrix and then convert it to laplacian matrix.
 
-#### eigenvectorEigenvalue()
+- eigenvectorEigenvalue()
   > To Find the eigenvalue and the corresponding eigenvectors.
 
-#### toNumpy()
+- toNumpy()
   > Converts PCA data to numpy array and decide iteration for k-means clustering.
 
-#### decidingRandomCentriods()
+- decidingRandomCentriods()
   > Random centroids decided
 
-#### euclidDist()
+- euclidDist()
   > Calculates euclid distance
 
-#### iteration1()
+- iteration1()
   > Assigns points to centroid and updates them.
 
-#### iterations()
+- iterations()
   > Repeats the process of assigning points to centroid and updating them. 
 
-#### calc_distance()
+- calc_distance()
   > Finds the distance to final centroid to form the cluster
 
-#### findClosestCentroids()
+- findClosestCentroids()
   > Derives the clustered array from final centroid
 
-#### get_audio()
+- get_audio()
   > Display HTML for button, evaluate the corresponding JavaScript to capture audio from system Microphone
 
-#### transcribe()
+- transcribe()
   > Uses Google’s SpeechRecognition library to transcribe the speech segments in the input audio using the segmentation list which contains start and end times of segments
 
-#### inaSpeechSegmenter
+- inaSpeechSegmenter
   > Returns a list of tuples with type of audio (‘speech’, ‘noise’ or ‘noEnergy’), start and end times of all the segments
 
-#### PyDub - AudioSegment, split_on_silence
+- PyDub - AudioSegment, split_on_silence
   > Used to read and export audio files, also to remove silence in the audio to decrease file size and increase efficiency
 
-#### createStream()
+- createStream()
   > Create a new streaming inference state.
 
 - getframerate()
