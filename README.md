@@ -111,10 +111,10 @@ Implementation of Spectral Clustering
 #### createStream()
   > Create a new streaming inference state.
 
-#### getframerate()
+- getframerate()
   > Returns the framerate of the buffer
 
-#### getnframes()
+- getnframes()
   > Returns the total number of frames in the buffer
 
 
