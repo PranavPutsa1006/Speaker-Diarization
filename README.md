@@ -55,7 +55,8 @@ Implementation of Spectral Clustering
 -	DeepSpeech
 -	Wave
 
-### Description of modules used: 
+### Description of modules used
+
 #### loadClusterData()
   > Takes the transposed mfccs and converts it into DataFrame.Then does the forward filling.
 
@@ -115,6 +116,7 @@ Implementation of Spectral Clustering
 
 #### getnframes()
   > Returns the total number of frames in the buffer
+
 
 ### Problems encountered and Solutions:
 - Audio input in colab notebook
