@@ -142,11 +142,5 @@ A speaker diarization module is hence built using the most suitable functions an
  
 
 
-### Team Members & Contribution
-- Speech detection and Segmentation- [PRK Pranav](https://github.com/PranavPutsa1006)
-- Embeddings Extraction- [Sahana Shenoy](https://github.com/Sahana-Shenoy)
-- Spectral Clustering- [Sachin Verma](https://github.com/sachinvamr)
-- Speech Transcription- [Priyadarshan R]()
-
 ### Scope of future work 
 Spectral clustering is mostly used unsupervised data analysis technique in the field of clustering. Our future work direction is to connect our clustering results with text transcripts and give the user more organized data such that it becomes easier to integrate it with real applications like MS teams to differentiate speakers contents effortlessly. Also, we would explore more measures to make our algorithm more accurate like using DNN autoencoders.
